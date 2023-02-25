@@ -1,0 +1,116 @@
+.app__navbar{
+    width: 100vw;
+    height:13vh;
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    position: fixed;
+}
+
+.app__navbar-left{
+    width: 15em;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app__navbar-right{
+    width: 40em;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+   
+}
+
+
+
+
+
+
+.app__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+  }
+  
+ 
+  
+  .app__navbar-menu_container{
+
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem ;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 5px;
+
+  }
+
+  .app__navbar-menu_container-links{
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    background: rgb(229, 232, 230);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .app__navbar-menu_container p{
+    margin: 1rem 1rem;
+    padding: 2px 0;
+    border-bottom: 3px solid black ;
+  }
+  
+  
+
+@media screen and (max-width:1062px) {
+    .app__navbar{
+        
+        gap: 1em;
+        
+    }
+    .app__navbar-right{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:728px) {
+
+    .app__navbar{
+        
+       
+    }
+      .app__navbar-right{
+        display: none;
+        
+      }
+      
+      .app__navbar-menu{
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+       
+      }
+}

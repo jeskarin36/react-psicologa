@@ -1,0 +1,38 @@
+.app__card{
+    width: 18em;
+    height: 95%;
+    border: 7px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.app__card-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    border-bottom: 3px solid black;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.app__card-title h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.app__card p{
+   line-height: 30px;
+}
+
+.app__card button{
+    margin: 20px;
+    width: 9em;
+    height: 3em;
+    background: black;
+    color: white;
+}
