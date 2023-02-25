@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-psicologa/static/css/main.f66f29be.css",
+    "main.js": "/react-psicologa/static/js/main.041a1b37.js",
+    "static/media/jamie-fenn-G5olxxSuHcs-unsplash.jpg": "/react-psicologa/static/media/jamie-fenn-G5olxxSuHcs-unsplash.010c4d3732db97ae6da4.jpg",
+    "static/media/jef-willemyns-mluUYXoTotY-unsplash.jpg": "/react-psicologa/static/media/jef-willemyns-mluUYXoTotY-unsplash.83685492f73dc641a5fb.jpg",
+    "static/media/brad-barmore-IQxcuHBF7Uo-unsplash.jpg": "/react-psicologa/static/media/brad-barmore-IQxcuHBF7Uo-unsplash.1cf607f5704b9a7e760d.jpg",
+    "index.html": "/react-psicologa/index.html",
+    "main.f66f29be.css.map": "/react-psicologa/static/css/main.f66f29be.css.map",
+    "main.041a1b37.js.map": "/react-psicologa/static/js/main.041a1b37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f66f29be.css",
+    "static/js/main.041a1b37.js"
+  ]
+}
