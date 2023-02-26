@@ -49,6 +49,7 @@
     .app__aboutme{
         flex-direction: column;
         gap: 50px;
+        
     }
     .app__aboutme-content{
         width: 80%;
@@ -57,3 +58,29 @@
         width: 80%;
     }
 }
+
+
+@media screen and (max-width:489px) {
+   
+    .app__aboutme{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8em;
+        max-height: 45em;
+    }
+
+    .app__aboutme-content{
+        width: 80%;
+        padding: 0 20px;
+     
+    }
+
+    .app__aboutme-content h3{
+        font-size: 35px;
+        line-height: normal;
+        margin: 25px;
+    }
+    
+}
+

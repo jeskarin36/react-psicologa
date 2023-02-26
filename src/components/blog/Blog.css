@@ -78,3 +78,18 @@
     }
 
 }
+
+
+@media  screen and (max-width:507px) {
+    .app__blog-title{
+        width: 100%;
+    }
+    .app__blog-title h3{
+        font-size: 30px;
+    }
+    .app__blog{
+        margin: 3em 0;
+        width: 100%;
+    }
+
+}

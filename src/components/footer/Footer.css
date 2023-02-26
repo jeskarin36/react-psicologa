@@ -133,3 +133,11 @@
         width: 60%;
     }
 }
+
+
+@media screen and (max-width:731px){
+    .app__footer{
+        width: 100%;
+    }
+
+}
